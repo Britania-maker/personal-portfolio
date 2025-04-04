@@ -3,6 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourName | Power Learn Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Profile Section -->
+    <!-- Profile Section - Updated Structure -->
+    <div class="profile-section">
+        <div class="profile-picture-container">
+            <div class="profile-picture">
+                <img src="images/brightone.png" alt="Britania-cipher" id="profile-img">
+            </div>
+            <div class="terminal-decoration">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <span class="terminal-btn red"></span>
+                        <span class="terminal-btn yellow"></span>
+                        <span class="terminal-btn green"></span>
+                    </div>
+                    <span class="terminal-title">user@profile:~</span>
+                </div>
+                <div class="terminal-content">
+                    <div class="terminal-line">profile_image.jpg --verified</div>
+                    <div class="terminal-line blinking-cursor">_</div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-info">
+            <h1>Britania-cipher</h1>
+            <p class="title">Power Learn Intern</p>
+        </div>
+    </div>
+
+    <!-- Main Terminal Window -->
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <div class="terminal-controls">
+                <span class="control close"></span>
+                <span class="control minimize"></span>
+                <span class="control maximize"></span>
+            </div>
+            <div class="terminal-title">user@powerlearn:~</div>
+        </div>
+        
+        <div class="terminal-body" id="terminal">
+            <div class="terminal-line">
+                <span class="user">user@powerlearn</span>:<span class="path">~</span>$ <span class="command">cat about_me.txt</span>
+            </div>
+            <div class="terminal-output" id="output">
+                <p>Welcome to my Power Learn Internship Portfolio.</p>
+                <p>I am a passionate developer specializing in [Your Skills].</p>
+                <p>Type <span class="highlight">'help'</span> to see available commands.</p>
+            </div>
+            <div class="terminal-input">
+                <span class="user">user@powerlearn</span>:<span class="path">~</span>$ 
+                <input type="text" id="command-input" autofocus spellcheck="false">
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav id="main-nav">
+        <ul>
+            <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="skills.html"><i class="fas fa-code"></i> Skills</a></li>
+            <li><a href="projects.html"><i class="fas fa-folder"></i> Projects</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NeoDev | Billion Dollar Tech Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
@@ -12,7 +118,7 @@
     <div class="matrix-background"></div>
     
     <div class="container">
-        <!-- Profile Section -->
+        
         <section class="profile-section">
             <div class="profile-picture">
                 <div class="picture-frame">
@@ -48,7 +154,7 @@
             </div>
         </section>
         
-        <!-- Main Terminal -->
+        
         <section class="main-terminal">
             <div class="terminal-header">
                 <div class="terminal-controls">
@@ -75,7 +181,7 @@
             </div>
         </section>
         
-        <!-- Quick Status -->
+        
         <section class="status-section">
             <div class="status-card">
                 <i class="fas fa-code"></i>
@@ -118,4 +224,4 @@
 
     <script src="script.js"></script>
 </body>
-</html>
+</html> -->
